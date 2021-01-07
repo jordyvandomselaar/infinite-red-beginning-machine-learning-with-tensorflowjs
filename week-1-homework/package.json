@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^2.8.2",
     "next": "10.0.5",
     "node-fetch": "^2.6.1",
     "nsfwjs": "^2.3.0",
