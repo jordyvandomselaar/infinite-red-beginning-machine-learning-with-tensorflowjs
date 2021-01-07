@@ -14,7 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1438037-5a34-4dd8-850f-de11360f8dbf" name="Default Changelist" comment="Week-1-homework: Implement NSFW.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week-1-homework/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/week-1-homework/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +120,16 @@
     <configuration name="scratch#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/week-1-homework/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/starting-template/package.json" />
       <command value="run" />
@@ -144,6 +153,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build (1)" />
         <item itemvalue="HTTP Request.scratch#1" />
         <item itemvalue="npm.build" />
       </list>
@@ -158,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609982940293</updated>
       <workItem from="1609982941345" duration="2496000" />
-      <workItem from="1609985475508" duration="11438000" />
+      <workItem from="1609985475508" duration="12193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609983084140</created>
@@ -181,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609996994494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week-1-homework: Implement NSFW.js">
+      <created>1609997048694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609997048694</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,22 +230,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609985687747" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1609996959531">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1609997703802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609996959531" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1609996959531">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609997703802" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1609997703801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609996959531" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1609996959531">
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609997703801" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1609997703801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609996959531" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1609996959531">
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609997703801" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1609997703802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609996959531" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609997703802" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1609985584492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609993049017" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609996996630">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609997050029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609996996630" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609997050029" />
     <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1609985433418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,6 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="475" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609989678875" />
+    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1609997237445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609997237445" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1609989953293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

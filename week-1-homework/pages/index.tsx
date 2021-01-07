@@ -4,6 +4,8 @@ import styled, {css} from "styled-components";
 import * as nsfwjs from 'nsfwjs'
 import {predictionType} from "nsfwjs";
 import useSWR from 'swr'
+import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
 
 const App = () => {
     const [previewSrc, setPreviewSrc] = useState("");
@@ -157,4 +159,4 @@ li:first-child {
 }
 `
 
-export default App;
+export default dynamic(() => Promise.resolve(App), {ssr: false});
