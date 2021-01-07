@@ -111,7 +111,7 @@ gap: 10px;
 `
 
 const Intro = styled.div`
-grid-area: 1/2/1/3;
+grid-area: 1/2/1/4;
 word-break: break-all;
 
 @media screen and (max-width: 1000px) {
