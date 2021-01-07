@@ -4,7 +4,6 @@ import styled, {css} from "styled-components";
 import * as nsfwjs from 'nsfwjs'
 import {predictionType} from "nsfwjs";
 import useSWR from 'swr'
-import dynamic from "next/dynamic";
 import dynamic from 'next/dynamic';
 
 const App = () => {

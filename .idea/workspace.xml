@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609982940293</updated>
       <workItem from="1609982941345" duration="2496000" />
-      <workItem from="1609985475508" duration="12193000" />
+      <workItem from="1609985475508" duration="12248000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609983084140</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609997048694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week-1-homework: Implement NSFW.js">
+      <created>1609997803532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609997803532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609993049017" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609997050029">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609997804342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609997050029" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609997804342" />
     <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1609985433418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
