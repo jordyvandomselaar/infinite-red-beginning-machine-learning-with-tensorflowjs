@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playground:build": "webpack --entry ./src/playground_homework.js -o ./dist --output-filename playground_homework.js --progress --target node --mode development",
+    "playground:watch": "npm run playground:build -- --watch",
+    "sandbox:build": "webpack --entry ./src/sandbox_homework.js -o ./dist --output-filename sandbox_homework.js --progress --mode development",
+    "sandbox:watch": "npm run sandbox:build -- --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^3.0.0"
+    "@tensorflow/tfjs-node": "^3.0.0",
+    "dogs-n-cats": "^1.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   }
 }
