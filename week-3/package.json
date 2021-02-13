@@ -1,0 +1,22 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "train-fizzbuzz:build": "webpack --entry ./src/train-fizzbuzz.js -o ./dist --output-filename train-fizzbuzz.js --progress --mode development",
+    "train-fizzbuzz:watch": "npm run train-fizzbuzz:build -- --watch",
+    "use-fizzbuzz:build": "webpack --entry ./src/use-fizzbuzz.js -o ./dist --output-filename use-fizzbuzz.js --progress --mode development",
+    "use-fizzbuzz:watch": "npm run use-fizzbuzz:build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
